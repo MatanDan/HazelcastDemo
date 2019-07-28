@@ -1,6 +1,6 @@
-package services;
+package com.example.hazelcast.services;
 
-import config.HazelcastConfig;
+import com.example.hazelcast.config.HazelcastConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +17,7 @@ public class BenchmarkService {
 
     @PostConstruct
     public void OverloadCaches() {
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 3; i++) {
             hazelcastConfig.getAlertsCache().putAsync(new Long(i), "Alert" + i);
         }
     }

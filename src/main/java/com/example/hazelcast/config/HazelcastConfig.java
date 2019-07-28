@@ -1,4 +1,4 @@
-package config;
+package com.example.hazelcast.config;
 
 import com.hazelcast.config.*;
 import com.hazelcast.core.Hazelcast;

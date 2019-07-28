@@ -1,4 +1,4 @@
-package processors;
+package com.example.hazelcast.processors;
 
 import com.hazelcast.core.Offloadable;
 import com.hazelcast.map.AbstractEntryProcessor;

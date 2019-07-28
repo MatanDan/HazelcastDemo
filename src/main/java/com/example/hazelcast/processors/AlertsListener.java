@@ -1,10 +1,10 @@
-package processors;
+package com.example.hazelcast.processors;
 
 import com.hazelcast.core.EntryEvent;
 import com.hazelcast.map.listener.EntryAddedListener;
 import com.hazelcast.map.listener.EntryRemovedListener;
 import com.hazelcast.map.listener.EntryUpdatedListener;
-import config.HazelcastConfig;
+import com.example.hazelcast.config.HazelcastConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
